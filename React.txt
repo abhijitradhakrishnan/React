@@ -1,0 +1,26 @@
+Q What is React?
+Ans React is a free and open source javascript library specifically designed for building user interfaces (UIs).
+
+Q What is Components Model?
+Ans A component is a piece of UI that has it's own logic and appearance. 
+    A component can be small as button or large as entire page
+
+Q What are components?
+Ans Components are independent & reusable bits of code. They serve the same purpose as JS functions, but work in isolation and return HTML.
+
+Q What is JSX?
+Ans JSX allows us to write HTML in React.
+
+Q.JSX Rules?
+Ans 1. JSX must return a single parent element
+    2. JSX elements must be properly closed
+    3. JSX attributes are written using camelCase (eg. className instead of class)
+
+Q.{Expression in JSX} ?
+Ans With JSX you can write expressions inside curly braces. The expressions can be react variable, or property, or any other
+    valid JavaScript expression. JSX will execute the expression and return the result.
+
+Q.What are Props?
+Ans 1. Props/Properties are arguments passed into React components
+    2. Props allows us to pass data from parent component to child component
+    3. Props are passed to components via HTML attributes
