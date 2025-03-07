@@ -1,4 +1,6 @@
 import Greeting from "./component/Greet/Greeting";
+import UserStatus from "./component/conditional rendering/UserStatus";
+import Weather from "./component/conditional rendering/Weather";
 import ProductInfo from "./component/expression/ProductInfo";
 import ProductList from "./component/map/ProductList";
 import UserList from "./component/map/UserList";
@@ -20,6 +22,9 @@ function App() {
         <h1>My Card</h1>
         <p>This is some content</p>
       </Card> */}
+      {/* <Weather temp={3} /> */}
+      {/* <UserStatus loggedIn={true} isAdmin={false} /> */}
+      <Greeting timeOfDay="morning" />
     </>
   )
 }

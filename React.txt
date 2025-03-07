@@ -24,3 +24,7 @@ Q.What are Props?
 Ans 1. Props/Properties are arguments passed into React components
     2. Props allows us to pass data from parent component to child component
     3. Props are passed to components via HTML attributes
+
+Q.What is Conditional rendering?    
+Ans Conditional rendering allows us to dynamically display different UI components or content based on specific Conditions.
+    This enables us to create more interactive and responsive user experience
